@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-img{
+    width:100%;
+    height:700px;
+    position: relative;
+}
+h2{
+    margin:-300px 0px 0px 700px;
+    font-size:70px;
+    color: crimson;
+    position: absolute;
+    font-weight:bold ;
+    font-family:Cambria;
+}
+@media (max-width: 880px) {
+    .about-img{
+      width:100%;
+      height:280px;
+      margin-top:100px;
+        }
+    h2{
+        margin:-120px 0px 0px 220px;
+        font-size:33px;
+    }
+}
+#c{
+    background-color: indianred;
+    height:700px;
+    width: 100%;
+    margin-left:2px;
+}
+@media(max-width:880px){
+    #c{
+        background-color: indianred ;
+        height:1400px;
+        width:100%
+    }
+}
+#about{
+    margin:20px 10px 0px 6px;
+    width:100%;
+    height:650px;
+    border-radius: 50%;
+    animation: cone 2s ease-in-out;
+    
+}
+@keyframes cone {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+#A-content h1,p{
+    color: rgb(9, 9, 52);
+    padding-bottom:20px;
+    margin-top:70px;
+    font-family: cursive;
+    margin-left:30px;
+}
+#A-content h1{
+    letter-spacing:2px ;
+    text-shadow:2px 2px 2px;
+}
+#A-content p{
+    font-size:20px;
+}
+/*--------------------about hero-------------------*/
+/*--------------------our team----------------*/
+#team{
+    background-color:rgb(145, 26, 133);
+    overflow: visible;
+}
+h3{
+    padding:70px 0px 40px 0px;
+    color:rgb(58, 5, 56);
+    font-size:40px;
+    font-family:cursive;
+    font-weight: bold;
+}
+@media (max-width: 880px) {
+   .card img{
+        width:90%;
+    }
+}
+.card{
+    background-color: transparent;
+    width: 100%;
+    padding-left: 20px;
+    border:none;
+    
+}
+.card img{
+    border-radius: 50%;
+    height:360px;
+    padding:20px;
+}
+.card-title{
+    margin-left:20px;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(62, 1, 1);
+    font-weight:bold;
+}
+.card-text{
+    color:rgb(62, 1, 1);;
+    font-size:18px;
+}
+.card:hover{
+    box-shadow:0 4px 5px rgb(62, 1, 1);;
+  transform: scale(1.05); 
+}
+/*-----------------end of card-------------------*/
+/*------------------family-----------------------*/
+.family{
+    background-color: indianred;
+}
+.family img{
+    padding: 20px;
+    border-radius:50%;
+    height:500px;
+    width:100%;
+    animation:family 2s ease-in-out;
+}
+@keyframes family {
+    0%{
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+  }
+.icon i{
+    font-size:40px;
+    margin-top:80px;
+    margin-left:250px;
+    color:rgb(2, 2, 33); ;
+
+}
+.icon p{
+    font-size:30px;
+    margin-top:-40px;
+    margin-left:310px;
+    color: rgb(2, 2, 33);
+    font-weight:bold;
+}
+@media (max-width:880px){
+    .icon i{
+        margin-left:100px;
+    }
+    .icon p{
+        margin-left:150px;
+    }
+}
+/*---------------End of family------------------*/
+/*---------------End of about-------------------*/
+
+.menu {
+    position: relative; /* Ensure the parent container is relatively positioned */
+    width: 100%;
+    background-color: rgb(232, 76, 102);
+    height: 820px;
+  }
+  
+  .menu1 {
+    position: absolute; /* Position menu1 absolutely */
+    top:200px; /* Adjust top position as needed */
+    left:180px;
+    width:750px;
+    height:450px;
+    border:10px solid black;
+    border-radius:40px;
+  }
+.menu1 h4{
+    font-size:80px;
+    margin:140px 0px 0px 80px;
+    color: black;
+    font-family:cursive;
+}
+.menu img{
+    border-radius:33%;
+    height:200px;
+    width:200px;
+    margin:-130px 0px 0px 460px;
+
+}
+#straw{
+    margin:180px 0px 0px 1100px;
+    height:500px;
+    width:33%;
+    border-radius:30%;
+}
+  
